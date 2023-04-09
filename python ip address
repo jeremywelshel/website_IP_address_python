@@ -1,0 +1,13 @@
+# web ip addresses 
+
+import socket 
+import sys 
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ip = socket.gethostbyname('www.nike.com')
+ip2 = socket.gethostbyname('www.github.com')
+ip3 = socket.gethostbyname('www.linkedin.com')
+print(" nike ip address" , ip)
+print(" github ip address" ,ip2)
+print(" linkedin ip address",ip3)
+
